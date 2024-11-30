@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebResume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #f0f0f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 20px; /* Add margin between sidebar and content */
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .content {
+            flex: 2;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills ul li {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .skills ul li:hover {
+            background-color: aqua;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="pics/ID Pic.png" alt="Your Photo">
+            <h3>Elijah Gabriel C. Montalban</h3>
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: elijah.montalban@neu.edu.ph</li>
+                <li>Phone: 0956-331-9730</li>
+                <li><a href="https://www.linkedin.com/in/elijah-montalban">LinkedIn</a></li>
+                <li><a href="https://github.com/SennwA">GitHub</a></li>
+            </ul>
+
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>College Course:</strong> Bachelor of Science in Information Technology</li>
+                <li><strong>University:</strong> New Era University</li>
+                <li><strong>Year:</strong> 2023 - 2027</li>
+                <hr>
+                <li><strong>Senior Highschool Strand:</strong> Information, Communication & Technology Strand</li>
+                <li><strong>University:</strong> New Era University</li>
+                <li><strong>Year:</strong> 2017 - 2023</li>
+            </ul>
+        </div>
+        </div>
+        <!-- Main Content -->
+        <div class="content">
+            <h1>About me</h1>
+            <ul>
+                <p>I am <strong>Elijah Gabriel C. Montalban</strong>, a current 2nd-year Information Technology student studying at New Era University - Main Campus. I am based on Quezon City. I am an aspiring Game Developer with the dreams of one day making a game that will be remembered as one of the greatest ever made.</p>
+            </ul>
+
+            <h2>Experiences/Achievements</h2>
+            <div class="experiences">
+            <ul>
+                <li>Science Club Secretary - 2016</li>
+                <li>Former Choir Singer - 2012 to 2019</li>
+                <li>1st Place: Technical Drafting Scale Model Making</li>
+            </ul>
+            </div>
+
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
