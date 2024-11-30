@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex: 2;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #f0f0f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills ul li {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .skills ul li:hover {
+            background-color: aqua;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <div class="content">
+            
+            <div class="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: elijah.montalban@neu.edu.ph</li>
+                    <li>Phone: 0956-331-9730</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>College Course:</strong> Bachelor of Science in Information Technology</li>
+                    <li><strong>University:</strong> New Era University</li>
+                    <li><strong>Year:</strong> 2023 - 2027</li>
+                    <hr>
+                    <li><strong>Senior Highschool Strand:</strong>Information, Communication & Technology Strand</li>
+                    <li><strong>University:</strong> New Era University</li>
+                    <li><strong>Year:</strong> 2017 - 2023</li>
+
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="pics/ID Pic.png" alt="Your Photo">
+            <h3>Elijah Gabriel C. Montalban</h3>
+        </div>
+    </div>
+</body>
+</html>
